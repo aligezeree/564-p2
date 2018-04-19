@@ -1,0 +1,255 @@
+             Three-Phase Induction Machine Design
+
+                      File: Setup2.res
+
+     GENERAL DATA 
+
+Given Output Power (kW):	0.4
+Rated Voltage (V):	380
+Winding Connection:	Wye
+Number of Poles:	4
+Given Speed (rpm):	1325
+Frequency (Hz):	50
+Stray Loss (W):	4 
+Frictional Loss (W):	11.66 
+Windage Loss (W):	13.1012 
+Operation Mode:	Motor
+Type of Load:	Constant Power
+Operating Temperature (C):	50
+
+     STATOR DATA 
+
+Number of Stator Slots:	36
+Outer Diameter of Stator (mm):  	80
+Inner Diameter of Stator (mm):  	50
+Type of Stator Slot:	4
+Stator Slot	
+            hs0 (mm):  	0.44
+            hs1 (mm):  	0.86
+            hs2 (mm):  	7.25
+            bs0 (mm):  	1.5
+            bs1 (mm):  	3.24
+            bs2 (mm):  	3.93
+            rs (mm):  	1
+
+Top Tooth Width (mm):  	1.35476
+Bottom Tooth Width (mm):  	1.93114
+
+Length of Stator Core (mm):  	49.45
+Stacking Factor of Stator Core:	0.95
+Type of Steel:	D21_50
+Number of lamination sectors	3
+Press board thickness (mm):  	0
+Magnetic press board	No
+Number of Parallel Branches:	1
+Type of Coils:	12
+Coil Pitch:	9
+Number of Conductors per Slot:	162
+Number of Wires per Conductor:	1
+Wire Diameter (mm):	0.361
+Wire Wrap Thickness (mm):	0
+
+Wedge Thickness (mm):	0
+Slot Liner Thickness (mm):	0
+Layer Insulation (mm):	0
+Slot Area (mm^2):	32.621
+Net Slot Area (mm^2):	30.1168
+
+Slot Fill Factor (%):	70.1004
+Limited Slot Fill Factor (%):	75
+Wire Resistivity (ohm.mm^2/m):	0.0217
+Conductor Length Adjustment (mm):  	0
+End Length Correction Factor	1
+End Leakage Reactance Correction Factor	1
+
+     ROTOR DATA 
+
+Number of Rotor Slots:	30
+Air Gap (mm):  	0.13
+Inner Diameter of Rotor (mm):  	15
+Type of Rotor Slot:	1
+Rotor Slot	
+            hs0 (mm):  	0.51
+            hs2 (mm):  	6.395
+            bs0 (mm):  	1
+            bs1 (mm):  	2.39
+            bs2 (mm):  	1.04
+Cast Rotor:	Yes
+Half Slot:	No
+
+Length of Rotor (mm):  	49.45
+Stacking Factor of Rotor Core:	0.95
+Type of Steel:	D21_50
+Skew Width:	1.00002
+End Length of Bar (mm):  	5
+Height of End Ring (mm):  	5
+Width of End Ring (mm):  	5
+Resistivity of Rotor Bar	
+  at 75 Centigrade (ohm.mm^2/m):	0.0172414
+Resistivity of Rotor Ring	
+  at 75 Centigrade (ohm.mm^2/m):	0.0172414
+Magnetic Shaft:	Yes
+
+     MATERIAL CONSUMPTION
+
+Armature Copper Density (kg/m^3):  	8900
+Rotor Bar Material Density (kg/m^3):  	8933
+Rotor Ring Material Density (kg/m^3):  	8933
+Armature Core Steel Density (kg/m^3):  	7820
+Rotor Core Steel Density (kg/m^3):  	7820
+
+Armature Copper Weight (kg):  	0.628399
+Rotor Bar Material Weight (kg):  	0.224188
+Rotor Ring Material Weight (kg):  	0.0613476
+Armature Core Steel Weight (kg):  	0.693839
+Rotor Core Steel Weight (kg):  	0.493836
+Total Net Weight (kg):  	2.10161
+
+Armature Core Steel Consumption (kg):  	1.80945
+Rotor Core Steel Consumption (kg):  	0.721318
+
+     RATED-LOAD OPERATION 
+
+Note:
+This motor cannot offer the given rated output power.
+The following results are at the given rated speed.
+
+Stator Resistance (ohm):	44.8186
+Stator Resistance at 20C (ohm):	40.1009
+Stator Leakage Reactance (ohm):	17.8383
+Rotor Resistance (ohm):	36.7215
+Rotor Leakage Reactance (ohm):	17.7028
+Resistance Corresponding to	
+  Iron-Core Loss (ohm):	8388.51
+Magnetizing Reactance (ohm):	314.498
+
+Stator Phase Current (A):	0.851411
+Current Corresponding to	
+  Iron-Core Loss (A):	0.0216029
+Magnetizing Current (A):	0.576207
+Rotor Phase Current (A):	0.574826
+
+Copper Loss of Stator Winding (W):	97.4671
+Copper Loss of Rotor Winding (W):	36.4011
+Iron-Core Loss (W):	11.7443
+Frictional and Windage Loss (W):	24.7612
+Stray Loss (W):	4
+Total Loss (W):	174.374
+Input Power (kW):	0.425221
+Output Power (kW):	0.250847
+
+Mechanical Shaft Torque (N.m):	1.80786
+Efficiency (%):	58.9922
+Power Factor:	0.751668
+Rated Slip:	0.116667
+Rated Shaft Speed (rpm):	1325
+
+     NO-LOAD OPERATION 
+
+No-Load Stator Resistance (ohm):	44.8186
+No-Load Stator Leakage Reactance (ohm):	18.3191
+No-Load Rotor Resistance (ohm):	36.7168
+No-Load Rotor Leakage Reactance (ohm):	19.3363
+
+No-Load Stator Phase Current (A):	0.648491
+No-Load Iron-Core Loss (W):	14.6565
+No-Load Input Power (W):	107.032
+No-Load Power Factor:	0.241392
+No-Load Slip:	0.00950623
+No-Load Shaft Speed (rpm):	1485.74
+
+     BREAK-DOWN OPERATION 
+
+Break-Down Slip:	0.74
+Break-Down Torque (N.m):	4.30232
+Break-Down Torque Ratio:	2.37979
+Break-Down Phase Current (A):	2.27619
+
+     LOCKED-ROTOR OPERATION 
+
+Locked-Rotor Torque (N.m):	4.18735
+Locked-Rotor Phase Current (A):	2.58383
+Locked-Rotor Torque Ratio:	2.3162
+Locked-Rotor Current Ratio:	3.03476
+
+Locked-Rotor Stator Resistance (ohm):	44.8186
+Locked-Rotor Stator	
+  Leakage Reactance (ohm):	16.3102
+Locked-Rotor Rotor Resistance (ohm):	37.0682
+Locked-Rotor Rotor	
+  Leakage Reactance (ohm):	12.9081
+
+     DETAILED DATA AT RATED OPERATION 
+
+Stator Slot Leakage Reactance (ohm):	8.15867
+Stator End-Winding Leakage	
+  Reactance (ohm):	8.0188
+Stator Differential Leakage	
+  Reactance (ohm):	1.6609
+Rotor Slot Leakage Reactance (ohm):	9.69122
+Rotor End-Winding Leakage	
+  Reactance (ohm):	1.79549
+Rotor Differential Leakage	
+  Reactance (ohm):	4.27548
+Skewing Leakage Reactance (ohm):	1.94076
+
+Stator Winding Factor:	0.959795
+
+Stator-Teeth Flux Density (Tesla):	1.86212
+Rotor-Teeth Flux Density (Tesla):	1.45879
+Stator-Yoke Flux Density (Tesla):	1.70715
+Rotor-Yoke Flux Density (Tesla):	0.597173
+Air-Gap Flux Density (Tesla):	0.65921
+
+Stator-Teeth Ampere Turns (A.T):	127.47
+Rotor-Teeth Ampere Turns (A.T):	17.1929
+Stator-Yoke Ampere Turns (A.T):	82.2578
+Rotor-Yoke Ampere Turns (A.T):	0.958087
+Air-Gap Ampere Turns (A.T):	115.216
+
+Correction Factor for Magnetic	
+  Circuit Length of Stator Yoke:	0.310013
+Correction Factor for Magnetic	
+  Circuit Length of Rotor Yoke:	0.7
+Saturation Factor for Teeth:	2.25558
+Saturation Factor for Teeth & Yoke:	2.97785
+Induced-Voltage Factor:	0.825986
+
+Stator Current Density (A/mm^2):	8.31831
+Specific Electric Loading (A/mm):	31.6109
+Stator Thermal Load (A^2/mm^3):	262.949
+
+Rotor Bar Current Density (A/mm^2):	7.91985
+Rotor Ring Current Density (A/mm^2):	10.3172
+
+Half-Turn Length of	
+  Stator Winding (mm):  	118.283
+
+     WINDING ARRANGEMENT
+
+The 3-phase, 1-layer winding can be arranged in 18 slots as below:
+
+AAAZZZBBBXXXCCCYYY
+
+
+Angle per slot (elec. degrees):	20
+Phase-A axis (elec. degrees):	110
+First slot center (elec. degrees):	0
+
+
+
+     TRANSIENT FEA INPUT DATA 
+
+For one phase of the Stator Winding:
+  Number of Turns:	972
+  Parallel Branches:	1
+  Terminal Resistance (ohm):	44.8186
+  End Leakage Inductance (H):	0.0255246
+For Rotor End Ring Between Two Bars of One Side:
+  Equivalent Ring Resistance (ohm):	3.926e-006
+  Equivalent Ring Inductance (H):	3.20563e-009
+2D Equivalent Value:
+  Equivalent Model Depth (mm):	49.45
+  Equivalent Stator Stacking Factor:	0.95
+  Equivalent Rotor Stacking Factor:	0.95
+Estimated Rotor Inertial Moment (kg m^2):	0.000231784
